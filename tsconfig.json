@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // 指定输出的目录
+    "sourceMap": true, // 采用 sourceMap 便于调试
+    "target": "ES6", // 目标语法
+    "module": "ESNext", // 模块格式，使用最新标准的模块规范
+    "moduleResolution": "Node", // 使用 Node 的模块解析方式
+    "strict": false, // 不开启严格模式
+    "resolveJsonModule": true, // 解析 JSON 模块
+    "esModuleInterop": true, // 允许 ES6 的方式导入CommonJS 模块
+    "jsx": "preserve", // jsx 不转义
+    "lib": ["ESNext", "DOM"] // 支持包含所有 ESNext 和 DOM 相关的类型定义
+  }
+}
